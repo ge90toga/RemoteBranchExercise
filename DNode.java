@@ -3,9 +3,9 @@ public class DNode {
   protected DNode next, prev;	// Pointers to next and previous nodes
   /** Constructor that creates a node with given fields */
   public DNode(String e, DNode p, DNode n) {
-    element = e;
-    prev = p;
-    next = n;
+    this.element = e;
+    this.prev = p;
+    this.next = n;
   }
   /** Returns the element of this node */
   public String getElement() { return element; }
