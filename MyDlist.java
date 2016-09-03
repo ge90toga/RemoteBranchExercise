@@ -219,7 +219,7 @@ public class MyDlist extends DList {
 			nodeA = nodeA.next;
 
 		}
-		return result;
+		return result;//result returned @linus
 	}
 	
 	
